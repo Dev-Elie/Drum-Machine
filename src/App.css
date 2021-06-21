@@ -1,0 +1,21 @@
+
+/*@media screen and  (max-width: 768px) {
+    #quote-box{
+        width: 100%;
+    }
+}*/
+.row{
+    margin-top:2rem;
+}
+.input, .output{
+    border-radius: 13px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+    height: 80vh;
+}
+textarea{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
