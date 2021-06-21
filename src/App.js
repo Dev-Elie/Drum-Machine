@@ -77,6 +77,7 @@ function Pad({clip,volume,setRecording}){
 		return ()=>{
 			document.removeEventListener('keydown',handleKeyPress);
 		};
+	// eslint-disable-next-line
 	},[]);
 
 	const handleKeyPress =(e)=>{
